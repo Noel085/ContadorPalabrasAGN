@@ -25,6 +25,26 @@ class ContadorPalabras(QtWidgets.QMainWindow):
         totalCaracteres
         self.tvCaracteres.setText(f"Caracteres:{totalCaracteres}")
         
+        #Cambiar color
+        if cantidadPalabras>=20:
+            self.tvPalabras.setStyleSheet("color: #ff0000;" )
+        elif totalCaracteres >=120:
+            self.tvCaracteres.setStyleSheet("color: #ff0000;")
+
+            
+            
+            
+            
+
+            
+            
+            
+        
+        
+        
+        
+        
+        
 app = QtWidgets.QApplication(sys.argv)
 ventana = ContadorPalabras()
 ventana.show()

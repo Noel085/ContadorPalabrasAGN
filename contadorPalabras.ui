@@ -61,8 +61,13 @@ border-radius:15px
       <height>16</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>Palabras: 0</string>
@@ -77,8 +82,13 @@ border-radius:15px
       <height>16</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>Caracteres:0</string>
