@@ -36,8 +36,8 @@
    <widget class="QLineEdit" name="edtCaracteres">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>130</y>
+      <x>110</x>
+      <y>110</y>
       <width>421</width>
       <height>151</height>
      </rect>
@@ -65,7 +65,7 @@ border-radius:15px
      <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
-     <string>Palabras: 45</string>
+     <string>Palabras: 0</string>
     </property>
    </widget>
    <widget class="QLabel" name="tvCaracteres">
@@ -81,7 +81,7 @@ border-radius:15px
      <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
-     <string>Caracteres:120</string>
+     <string>Caracteres:0</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnContar">
@@ -103,6 +103,31 @@ border-radius:9px</string>
      <string>Contar</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-50</y>
+      <width>151</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../d4ac25ac66bb49e23d466a58c8a9a496.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>label</zorder>
+   <zorder>edtCaracteres</zorder>
+   <zorder>tvPalabras</zorder>
+   <zorder>tvCaracteres</zorder>
+   <zorder>btnContar</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
